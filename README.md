@@ -1,1 +1,3 @@
-# LietProgr tests
+# LietProgr
+
+Github prieks Lietotnu Programmesanas stundam
