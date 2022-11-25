@@ -1,0 +1,33 @@
+{
+    "java.project.referencedLibraries": {
+        "include": [
+            "lib/**/*.jar",
+            "c:\\Users\\user2200\\Downloads\\javafx-sdk-19\\lib\\javafx.base.jar",
+            "c:\\Users\\user2200\\Downloads\\javafx-sdk-19\\lib\\javafx.controls.jar",
+            "c:\\Users\\user2200\\Downloads\\javafx-sdk-19\\lib\\javafx.fxml.jar",
+            "c:\\Users\\user2200\\Downloads\\javafx-sdk-19\\lib\\javafx.graphics.jar",
+            "c:\\Users\\user2200\\Downloads\\javafx-sdk-19\\lib\\javafx.media.jar",
+            "c:\\Users\\user2200\\Downloads\\javafx-sdk-19\\lib\\javafx.swing.jar",
+            "c:\\Users\\user2200\\Downloads\\javafx-sdk-19\\lib\\javafx.web.jar",
+            "c:\\Users\\user2200\\Downloads\\javafx-sdk-19\\lib\\javafx-swt.jar",
+            "e:\\Program Files\\Java_JFX\\javafx-sdk-19\\lib\\javafx.base.jar",
+            "e:\\Program Files\\Java_JFX\\javafx-sdk-19\\lib\\javafx.controls.jar",
+            "e:\\Program Files\\Java_JFX\\javafx-sdk-19\\lib\\javafx.fxml.jar",
+            "e:\\Program Files\\Java_JFX\\javafx-sdk-19\\lib\\javafx.graphics.jar",
+            "e:\\Program Files\\Java_JFX\\javafx-sdk-19\\lib\\javafx.media.jar",
+            "e:\\Program Files\\Java_JFX\\javafx-sdk-19\\lib\\javafx.swing.jar",
+            "e:\\Program Files\\Java_JFX\\javafx-sdk-19\\lib\\javafx.web.jar",
+            "e:\\Reinis\\Java_JFX\\javafx-sdk-19\\lib\\javafx.base.jar",
+            "e:\\Reinis\\Java_JFX\\javafx-sdk-19\\lib\\javafx.controls.jar",
+            "e:\\Reinis\\Java_JFX\\javafx-sdk-19\\lib\\javafx.fxml.jar",
+            "e:\\Reinis\\Java_JFX\\javafx-sdk-19\\lib\\javafx.graphics.jar",
+            "e:\\Reinis\\Java_JFX\\javafx-sdk-19\\lib\\javafx.media.jar",
+            "e:\\Reinis\\Java_JFX\\javafx-sdk-19\\lib\\javafx.swing.jar",
+            "e:\\Reinis\\Java_JFX\\javafx-sdk-19\\lib\\javafx.web.jar",
+            "e:\\Reinis\\Java_JFX\\javafx-sdk-19\\lib\\javafx-swt.jar"
+        ],
+        "exclude": [
+            "e:\\Program Files\\Java_JFX\\javafx-sdk-19\\lib\\javafx-swt.jar"
+        ]
+    }
+}
