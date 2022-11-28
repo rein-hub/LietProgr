@@ -1,8 +1,13 @@
+import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.scene.paint.Color;
-import javafx.scene.text.Font;
+import javafx.scene.control.Button;
+import javafx.scene.control.Label;
+import javafx.scene.control.PasswordField;
+import javafx.scene.control.TextField;
+import javafx.scene.input.MouseEvent;
 
 public class Mainframe {
 
@@ -13,23 +18,47 @@ public class Mainframe {
     private URL location;
 
     @FXML
-    private Font x1;
+    private Button button;
 
     @FXML
-    private Color x2;
+    private PasswordField password;
 
     @FXML
-    private Font x3;
+    private TextField username;
 
     @FXML
-    private Color x4;
+    private Label wrongLogIn;
+
+    @FXML
+    void userLogIn(ActionEvent event) throws IOException {
+        checkLogin();
+    }
+
+    @FXML
+    void clearLabel(MouseEvent event) throws IOException{
+        wrongLogIn.setText(" ");
+    }
+
+    private void checkLogin() throws IOException {
+        App m = new App();
+        if(username.getText().toString().equals("admin") && password.getText().toString().equals("123")){
+            m.changeScene("afterLogin.fxml");
+        }
+        else if (username.getText().isEmpty() && password.getText().isEmpty()){
+            wrongLogIn.setText("Please enter data.");
+        }else{
+            wrongLogIn.setText("Wrong username or password.");
+        }
+    }
+
+    
 
     @FXML
     void initialize() {
-        assert x1 != null : "fx:id=\"x1\" was not injected: check your FXML file 'Untitled'.";
-        assert x2 != null : "fx:id=\"x2\" was not injected: check your FXML file 'Untitled'.";
-        assert x3 != null : "fx:id=\"x3\" was not injected: check your FXML file 'Untitled'.";
-        assert x4 != null : "fx:id=\"x4\" was not injected: check your FXML file 'Untitled'.";
+        assert button != null : "fx:id=\"button\" was not injected: check your FXML file 'Mainframe.fxml'.";
+        assert password != null : "fx:id=\"password\" was not injected: check your FXML file 'Mainframe.fxml'.";
+        assert username != null : "fx:id=\"username\" was not injected: check your FXML file 'Mainframe.fxml'.";
+        assert wrongLogIn != null : "fx:id=\"wrongLogIn\" was not injected: check your FXML file 'Mainframe.fxml'.";
 
     }
 
