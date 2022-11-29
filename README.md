@@ -27,3 +27,20 @@ Izveidot datu apskates skatu dažādām vajadzībām.
 
 3. Apraksti, kādi programmēšanas elementi tika izmantoti kodā. Dati, objekti, funkcijas utt.
 
+Objekti:
+Button
+TableView
+Text
+Label
+PasswordField
+DatePicker
+Room (class)
+
+Funkcijas:
+checkLogin - atļauļ lietotājam ielogoties
+addRoom - pievieno jaunas istabas datus tabulai
+popup - izmantots, lai parādītu lietotājam informācijas vai eroru izlecošos logus
+updateText - izmanto, lai atjauninātu statistikas tekstu datus
+userLogout - atļauļ lietotājam izlogoties
+
+Pagaidām programmā var tikai ielogoties ar username admin un paroli 123.
