@@ -44,30 +44,38 @@
    <children>
       <AnchorPane prefHeight="96.0" prefWidth="1280.0" style="-fx-background-color: #706d62;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
-            <Text fill="WHITE" layoutX="14.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HOTEL DATABASE" textAlignment="CENTER" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="6.095703125">
+            <Text fill="WHITE" layoutX="374.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ROOM MANAGER" textAlignment="CENTER" AnchorPane.leftAnchor="374.0" AnchorPane.topAnchor="6.095703125">
                <font>
                   <Font name="System Bold" size="62.0" />
                </font>
             </Text>
          </children>
       </AnchorPane>
-      <TextField fx:id="username" layoutX="184.0" layoutY="164.0" AnchorPane.leftAnchor="184.0" AnchorPane.topAnchor="164.0" />
-      <Text fill="WHITE" layoutX="60.0" layoutY="185.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username" textAlignment="CENTER" AnchorPane.leftAnchor="60.0" AnchorPane.topAnchor="162.3388671875">
+      <TextField fx:id="username" layoutX="535.0" layoutY="269.0" prefHeight="38.0" prefWidth="211.0" AnchorPane.leftAnchor="535.0" AnchorPane.topAnchor="269.0" />
+      <Text fill="WHITE" layoutX="410.0" layoutY="296.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username" textAlignment="CENTER" AnchorPane.leftAnchor="410.0" AnchorPane.topAnchor="273.3388671875">
          <font>
             <Font name="System Bold" size="21.0" />
          </font>
       </Text>
-      <Text fill="WHITE" layoutX="62.0" layoutY="220.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" textAlignment="CENTER" AnchorPane.leftAnchor="62.0" AnchorPane.topAnchor="197.3388671875">
+      <Text fill="WHITE" layoutX="415.0" layoutY="361.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" textAlignment="CENTER" AnchorPane.leftAnchor="415.0" AnchorPane.topAnchor="338.3388671875">
          <font>
             <Font name="System Bold" size="21.0" />
          </font>
       </Text>
-      <PasswordField fx:id="password" layoutX="184.0" layoutY="199.0" AnchorPane.leftAnchor="184.0" AnchorPane.topAnchor="199.0" />
-      <Button fx:id="button" layoutX="221.0" layoutY="250.0" mnemonicParsing="false" onAction="#userLogIn" prefHeight="38.0" prefWidth="75.0" text="Login" AnchorPane.leftAnchor="221.0" AnchorPane.topAnchor="250.0">
+      <PasswordField fx:id="password" layoutX="535.0" layoutY="334.0" prefHeight="38.0" prefWidth="211.0" AnchorPane.leftAnchor="535.0" AnchorPane.topAnchor="334.0" />
+      <Button fx:id="button" layoutX="603.0" layoutY="406.0" mnemonicParsing="false" onAction="#userLogIn" prefHeight="38.0" prefWidth="75.0" text="Login" AnchorPane.leftAnchor="603.0" AnchorPane.topAnchor="406.0">
          <font>
             <Font size="17.0" />
          </font>
       </Button>
-      <Label fx:id="wrongLogIn" layoutX="184.0" layoutY="128.0" onMouseClicked="#clearLabel" textFill="RED" />
+      <Label fx:id="wrongLogIn" layoutX="535.0" layoutY="231.0" onMouseClicked="#clearLabel" textAlignment="CENTER" textFill="RED" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+      <Text fill="WHITE" layoutX="473.0" layoutY="210.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LOG IN TO SYSTEM" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="37.0" />
+         </font>
+      </Text>
    </children>
 </AnchorPane>

@@ -1,10 +1,10 @@
+
 import java.io.IOException;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
 import javafx.stage.Stage;
  
 public class App extends Application {
@@ -18,7 +18,7 @@ public class App extends Application {
 
         stg = primaryStage;
         stg.setResizable(false);
-        stg.setTitle("Hotel Database");
+        stg.setTitle("Room Manager");
 
         try {
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("Mainframe.fxml"));

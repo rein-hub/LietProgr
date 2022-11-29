@@ -6,17 +6,25 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Launch Current File",
+            "name": "Launch Main",
             "request": "launch",
-            "mainClass": "${file}"
+            "mainClass": "Main",
+            "projectName": "LietProgr_b3b8bcdc"
         },
         {
             "type": "java",
             "name": "Launch App",
             "request": "launch",
-            "vmArgs": "--module-path E:\\Reinis\\Java_JFX\\javafx-sdk-19\\lib --add-modules javafx.controls,javafx.fxml",
             "mainClass": "App",
-            "projectName": "LietProgr_b3b8bcdc"
+            "projectName": "LietProgr_b3b8bcdc",
+            "vmArgs": "--module-path E:\\Reinis\\Java_JFX\\javafx-sdk-19\\lib --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "vmArgs": "--module-path E:\\Reinis\\Java_JFX\\javafx-sdk-19\\lib --add-modules javafx.controls,javafx.fxml",
+            "mainClass": "${file}"
         }
     ]
 }
