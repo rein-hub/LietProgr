@@ -4,17 +4,26 @@ Github priekš Lietotnu Programmesanas stundam
 
 Programmas apraksts:
 
--= Viesnicas menegeris.
+1. Programmas apraksts.
 
-Lietotājs ievada datus par to, cik stāvi, cik istabas, kuras ir aizņemtas, kas katrā dzīvo, utt.
+-= Viesnīcas menedžeris
+
+Lietotājs ievada datus - Vārds un Uzvārds, Telefona Nr., Ierakstīšanās un Izrakstīšanās datumi, Istabiņas numurs 
 Dati saglabāti failā.
 Opcija aizsargāt programmu ar paroli.
 Programmas interfeiss izveidots, lai pēc iespējas vieglāk un ērtāk izmantotu.
-Vairāki veidi apskatīt datus, piemēroti dažādām vajadzībām, piemēram, kad vajag apskatīt kuras istabas pieejamas vai lai atrastu kurā dzīvo cilvēks.
+Tiks parādīta tabula, ar visiem cilvēka personas datiem un istabiņas numuriem.
+Jo tā ir vajadzība dažādām viesnīcām, piemēram, kad vajag atrast kurā istabas numuriņā dzīvo attiecīgais cilvēks.
+
+
+2. Tehniskās iespējas, ko tajā varēs ievadīt un kādu rezultātu sagaidīt.
 
 -= Tehniskie uzdevumi.
 
 Atļaušana lietotājam ievadīt datus un saglabāt tos failā uz sava datora.
 Paroles uzstādīšana un izmantošana.
 Datu lasīšana un displejošana lietotājam saprotamā veidā.
-Izveidot datu apskates skatus dažādām vajadzībām.
+Izveidot datu apskates skatu dažādām vajadzībām.
+
+3. Apraksti, kādi programmēšanas elementi tika izmantoti kodā. Dati, objekti, funkcijas utt.
+
