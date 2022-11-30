@@ -24,7 +24,15 @@
             "e:\\Reinis\\Java_JFX\\javafx-sdk-19\\lib\\javafx.media.jar",
             "e:\\Reinis\\Java_JFX\\javafx-sdk-19\\lib\\javafx.swing.jar",
             "e:\\Reinis\\Java_JFX\\javafx-sdk-19\\lib\\javafx.web.jar",
-            "e:\\Reinis\\Java_JFX\\javafx-sdk-19\\lib\\javafx-swt.jar"
+            "e:\\Reinis\\Java_JFX\\javafx-sdk-19\\lib\\javafx-swt.jar",
+            "c:\\Users\\User\\Documents\\JavaFX\\javafx-sdk-19\\lib\\javafx.base.jar",
+            "c:\\Users\\User\\Documents\\JavaFX\\javafx-sdk-19\\lib\\javafx.controls.jar",
+            "c:\\Users\\User\\Documents\\JavaFX\\javafx-sdk-19\\lib\\javafx.fxml.jar",
+            "c:\\Users\\User\\Documents\\JavaFX\\javafx-sdk-19\\lib\\javafx.graphics.jar",
+            "c:\\Users\\User\\Documents\\JavaFX\\javafx-sdk-19\\lib\\javafx.media.jar",
+            "c:\\Users\\User\\Documents\\JavaFX\\javafx-sdk-19\\lib\\javafx.swing.jar",
+            "c:\\Users\\User\\Documents\\JavaFX\\javafx-sdk-19\\lib\\javafx.web.jar",
+            "c:\\Users\\User\\Documents\\JavaFX\\javafx-sdk-19\\lib\\javafx-swt.jar"
         ],
         "exclude": [
             "e:\\Program Files\\Java_JFX\\javafx-sdk-19\\lib\\javafx-swt.jar"

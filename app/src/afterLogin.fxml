@@ -89,8 +89,8 @@
                   <TableView fx:id="table" prefHeight="636.0" prefWidth="657.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                     <columns>
                       <TableColumn fx:id="colName" prefWidth="75.0" text="Name" />
-                      <TableColumn fx:id="colCap" prefWidth="75.0" text="Cap" />
-                        <TableColumn fx:id="colNum" prefWidth="75.0" text="Num" />
+                      <TableColumn fx:id="colCap" prefWidth="75.0" text="Capacity" />
+                        <TableColumn fx:id="colNum" prefWidth="75.0" text="Number" />
                     </columns>
                   </TableView>
                </children>

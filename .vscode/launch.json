@@ -9,6 +9,13 @@
             "name": "Launch Main",
             "request": "launch",
             "mainClass": "Main",
+            "projectName": "LietProgr_d1ef26af"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Main",
             "projectName": "LietProgr_b3b8bcdc"
         },
         {
